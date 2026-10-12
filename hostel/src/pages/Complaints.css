@@ -1,0 +1,87 @@
+
+.complaints-page {
+  padding: 25px;
+  font-family: Arial, sans-serif;
+  color: #1e293b;
+}
+
+.complaint-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.complaint-form {
+  display: grid;
+  gap: 12px;
+  max-width: 550px;
+}
+
+.complaint-form input,
+.complaint-form select,
+.complaint-form textarea {
+  padding: 11px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.complaint-form button,
+.complaint-table button {
+  padding: 9px 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.complaint-form button:hover,
+.complaint-table button:hover {
+  background: #1d4ed8;
+}
+
+.complaint-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.complaint-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 15px;
+}
+
+.complaint-table th,
+.complaint-table td {
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.complaint-table th {
+  background: #1e293b;
+  color: white;
+}
+
+.complaint-status {
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.success-message {
+  color: #15803d;
+}
+
+.error-message {
+  color: #dc2626;
+}
+
+@media (max-width: 600px) {
+  .complaints-page {
+    padding: 12px;
+  }
+}

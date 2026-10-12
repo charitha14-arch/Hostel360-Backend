@@ -1,0 +1,136 @@
+
+.cleaning-page {
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  color: #1e293b;
+}
+
+.cleaning-message {
+  padding: 12px;
+  background: #e0f2fe;
+  border-radius: 6px;
+  overflow-wrap: anywhere;
+}
+
+.cleaning-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin: 20px 0;
+}
+
+.cleaning-summary > div,
+.cleaning-card {
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.cleaning-summary h3 {
+  margin: 0;
+  color: #2563eb;
+  font-size: 25px;
+}
+
+.cleaning-summary p {
+  margin-bottom: 0;
+}
+
+.cleaning-card {
+  margin-bottom: 22px;
+}
+
+.cleaning-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 850px;
+}
+
+.cleaning-form label {
+  display: grid;
+  gap: 7px;
+  font-weight: 600;
+}
+
+.cleaning-form input,
+.cleaning-form textarea,
+.cleaning-toolbar select,
+.cleaning-toolbar button,
+.cleaning-table select {
+  font: inherit;
+  padding: 9px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+}
+
+.cleaning-primary {
+  padding: 11px 16px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cleaning-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.cleaning-toolbar h3 {
+  margin-right: auto;
+}
+
+.cleaning-toolbar button {
+  cursor: pointer;
+}
+
+.cleaning-table-wrap {
+  overflow-x: auto;
+}
+
+.cleaning-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.cleaning-table th,
+.cleaning-table td {
+  padding: 11px;
+  text-align: left;
+  border: 1px solid #e2e8f0;
+}
+
+.cleaning-table th {
+  background: #1e293b;
+  color: white;
+}
+
+.cleaning-status {
+  display: inline-block;
+  padding: 5px 8px;
+  background: #e2e8f0;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+@media (max-width: 650px) {
+  .cleaning-page {
+    padding: 12px;
+  }
+
+  .cleaning-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cleaning-form {
+    grid-template-columns: 1fr;
+  }
+}

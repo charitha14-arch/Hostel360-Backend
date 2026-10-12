@@ -1,0 +1,77 @@
+
+.student-page {
+  padding: 24px;
+  color: #1e293b;
+}
+
+.student-page h1 {
+  margin-bottom: 8px;
+}
+
+.student-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.student-form input {
+  flex: 1 1 200px;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.student-page button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.student-page button:hover {
+  background: #1d4ed8;
+}
+
+.student-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.student-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 16px;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.student-table th {
+  background: #f1f5f9;
+}
+
+.success-message {
+  color: #15803d;
+}
+
+.error-message {
+  color: #b91c1c;
+  overflow-wrap: anywhere;
+}
